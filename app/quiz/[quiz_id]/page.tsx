@@ -4,7 +4,9 @@ import { QuestionModel } from "../../../typying";
 async function QuizPage({ params }: { params: { quiz_id: string } }) {
   try {
     const question: QuestionModel[] = await fetch(
-      `http://localhost:3000/api/question?year=${params.quiz_id}`,
+      `${
+        process.env.URL ? process.env.URL : "http://localhost:3000"
+      }/api/question?year=${params.quiz_id}`,
       {
         headers: {
           "content-type": "application/json",
