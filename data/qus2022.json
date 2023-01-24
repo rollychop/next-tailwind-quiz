@@ -1,0 +1,2690 @@
+[
+  {
+    "question": "Aristotle was one of the firsts to attempt to codify \"thinking\". <br>His _________ provided patterns of argument structure that always gave correct conclusions, given correct premises",
+    "options": [
+      {
+        "option": "deductions",
+        "isCorrect": false
+      },
+      {
+        "option": "formalism",
+        "isCorrect": false
+      },
+      {
+        "option": "syllogisms",
+        "isCorrect": true
+      },
+      {
+        "option": "axioms",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 1"
+  },
+  {
+    "question": "Turing test or Imitation Game, was put forth as a simple test that could be used to _______",
+    "options": [
+      {
+        "option": "prove machines could think.",
+        "isCorrect": true
+      },
+      {
+        "option": "break the enigma code.",
+        "isCorrect": false
+      },
+      {
+        "option": "show human are intelligent.",
+        "isCorrect": false
+      },
+      {
+        "option": "show machines can compute.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 2"
+  },
+  {
+    "question": "Overall computational cost of a AI Production System is in two major categories: <br>Rule Application Cost and Control Strategy Cost. <br>For an Uninformed Control System, we have the following:",
+    "options": [
+      {
+        "option": "Low Rule Application Cost and High Control Strategy Cost",
+        "isCorrect": false
+      },
+      {
+        "option": "Low Rule Application Cost and Low Control Strategy Cost",
+        "isCorrect": false
+      },
+      {
+        "option": "High Rule Application Cost and Low Control Strategy Cost",
+        "isCorrect": true
+      },
+      {
+        "option": "High Rule Application Cost and High Control Strategy Cost",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 3"
+  },
+  {
+    "question": "For more complex games, such as chess or checker the AND/OR search to termination is out of question. <br>Which of the following statements are true? <br>I. Our goal in searching such a game tree might be, instead, merely to find a good first move. <br>II. Extract from the search graph an estimate of the ‘best’ first move.",
+    "options": [
+      {
+        "option": "Both I and II.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only I",
+        "isCorrect": false
+      },
+      {
+        "option": "Both I and II are false.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 4"
+  },
+  {
+    "question": "For Breadth First Search, the following statements are correct",
+    "options": [
+      {
+        "option": "Fringe is a FIFO queue",
+        "isCorrect": true
+      },
+      {
+        "option": "Fringe is a LIFO queue",
+        "isCorrect": false
+      },
+      {
+        "option": "Deepest node is expanded first.",
+        "isCorrect": false
+      },
+      {
+        "option": "Nodes are added to the front of the OPEN list.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 5"
+  },
+  {
+    "question": "Bidirectional search is a graph search algorithm that runs two simultaneous searches. <br>Which of the following statements is false for bidirectional search?",
+    "options": [
+      {
+        "option": "Requires the ability to generate predecessor states.",
+        "isCorrect": false
+      },
+      {
+        "option": "Bidirectional search is always optimal.",
+        "isCorrect": true
+      },
+      {
+        "option": "Stop when the frontiers intersect.",
+        "isCorrect": false
+      },
+      {
+        "option": "Works well only when there are unique start and goal states",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 6"
+  },
+  {
+    "question": "There are two distinct specialized production systems; <br>Order in which a set of applicable rules is applied to a database is unimportant for a ________ production system.",
+    "options": [
+      {
+        "option": "Decomposable",
+        "isCorrect": false
+      },
+      {
+        "option": "Commutative",
+        "isCorrect": true
+      },
+      {
+        "option": "Specialized",
+        "isCorrect": false
+      },
+      {
+        "option": "AND/ OR",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 7"
+  },
+  {
+    "question": "To solve a problem using a production system, one must specify __________________",
+    "options": [
+      {
+        "option": "The Global database, Rules and Control Strategy",
+        "isCorrect": true
+      },
+      {
+        "option": "Some search technique",
+        "isCorrect": false
+      },
+      {
+        "option": "Initial facts only",
+        "isCorrect": false
+      },
+      {
+        "option": "Constraints",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 8"
+  },
+  {
+    "question": "__________ aims at building machines that act intelligently, without taking a position on whether or not the machines actually are intelligent.",
+    "options": [
+      {
+        "option": "Weak AI",
+        "isCorrect": true
+      },
+      {
+        "option": "Strong AI",
+        "isCorrect": false
+      },
+      {
+        "option": "Connectionist AI",
+        "isCorrect": false
+      },
+      {
+        "option": "Symbolic AI",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 9"
+  },
+  {
+    "question": "The AO* algorithm can best be seen as the following TWO major operations:",
+    "options": [
+      {
+        "option": "Step I: Top-down: graph-growing; Step II: Bottom-up: cost-revising, SOLVE-labelling.",
+        "isCorrect": true
+      },
+      {
+        "option": "Step I: Bottom-up: graph-growing; Step II: Top-down: cost-revising, SOLVE-labelling.",
+        "isCorrect": false
+      },
+      {
+        "option": "Step I: Top-down: graph-growing, SOLVE-labelling; Step II: Bottom-up: cost-revising.",
+        "isCorrect": false
+      },
+      {
+        "option": "Step I: Bottom-up: graph-growing, SOLVE-labelling; Step II: Top-down: cost-revising.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 1 Q 10"
+  },
+  {
+    "question": "The A* search algorithm is based on ___________",
+    "options": [
+      {
+        "option": "Breadth-First-Search",
+        "isCorrect": false
+      },
+      {
+        "option": "Depth-First –Search",
+        "isCorrect": false
+      },
+      {
+        "option": "Best-First-Search",
+        "isCorrect": true
+      },
+      {
+        "option": "Hill climbing",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 1"
+  },
+  {
+    "question": "A* generates an optimal solution under which of the following conditions? <br>Condition 1: If h(n) is an admissible heuristic and the search space is a tree. <br>Condition 2: If h(n) is a consistent heuristic and the search space is a graph.",
+    "options": [
+      {
+        "option": "A* never generate an optimal solution.",
+        "isCorrect": false
+      },
+      {
+        "option": "Condition 1 only",
+        "isCorrect": false
+      },
+      {
+        "option": "Condition 2 only",
+        "isCorrect": false
+      },
+      {
+        "option": "Both Condition 1 and Condition 2",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 2"
+  },
+  {
+    "question": "Which of the following statements are true for inadmissible heuristics?",
+    "options": [
+      {
+        "option": "Overestimate the cost.",
+        "isCorrect": true
+      },
+      {
+        "option": "Breaks optimality by trapping good plans on the fringe.",
+        "isCorrect": true
+      },
+      {
+        "option": "Slow down search by assigning a lower cost to a bad plan.",
+        "isCorrect": false
+      },
+      {
+        "option": "Underestimate the cost.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 3"
+  },
+  {
+    "question": "A solution to a CSP is a complete assignment that satisfies all the constraints. <br>Which of the two are true for a solution to a CSP? <br>I. An assignment that does not violate any constraints is called consistent or legal. <br>II. A complete assignment is one in which every variable is mentioned.",
+    "options": [
+      {
+        "option": "Neither I nor II",
+        "isCorrect": false
+      },
+      {
+        "option": "Both I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "I only",
+        "isCorrect": false
+      },
+      {
+        "option": "II only",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 4"
+  },
+  {
+    "question": "Arc Consistency is a method of constraint propagation. <br>Which of the following statements are correct for arc consistency?",
+    "options": [
+      {
+        "option": "Arc consistency is substantially stronger than forward checking.",
+        "isCorrect": true
+      },
+      {
+        "option": "Detects failure early!",
+        "isCorrect": true
+      },
+      {
+        "option": "Arc consistency is one of the most powerful propagation techniques for binary constraints.",
+        "isCorrect": true
+      },
+      {
+        "option": "Provides a fast method of constraint propagation.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 5"
+  },
+  {
+    "question": "____________ is a backtracking algorithm for CSP that is aware of the underlying constraint graph; <br>determines where to jump back to, based on the actual conflict that it has recorded.",
+    "options": [
+      {
+        "option": "Chronological Backtracking",
+        "isCorrect": false
+      },
+      {
+        "option": "Conflict-directed Backjumping",
+        "isCorrect": true
+      },
+      {
+        "option": "Arc Consistency",
+        "isCorrect": false
+      },
+      {
+        "option": "Plain Backtracking",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 2 Q 6"
+  },
+  {
+    "question": "For solutions in an AND-OR graph, <br>which of the following statements are true.",
+    "options": [
+      {
+        "option": "Need an algorithm similar to best-first search; but with the ability to handle the AND arc appropriately.",
+        "isCorrect": true
+      },
+      {
+        "option": "AO* algorithm use a single structure - a graph - representing part of the search graph.",
+        "isCorrect": true
+      },
+      {
+        "option": "At least one arm of an AND arc must lead to a solution node.",
+        "isCorrect": false
+      },
+      {
+        "option": "A solution graph of an AND-OR graph is analogous to a path in an ordinary graph.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 3 Q 1"
+  },
+  {
+    "question": "Alpha-beta pruning had been reinvented a number of times! <br>The earliest version was by _______________ for a checkers simulation.",
+    "options": [
+      {
+        "option": "Allen Newell",
+        "isCorrect": false
+      },
+      {
+        "option": "Herbert A. Simon",
+        "isCorrect": false
+      },
+      {
+        "option": "John McCarthy",
+        "isCorrect": false
+      },
+      {
+        "option": "Arthur Samuel",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 3 Q 2"
+  },
+  {
+    "question": "Give one word or a phrase for: <br>A mathematical representation of a situation in which each participant's gain or loss of utility is exactly balanced by the losses or gains of utility of the other participants.",
+    "options": [
+      {
+        "option": "Minimax",
+        "isCorrect": false
+      },
+      {
+        "option": "Pay-off function",
+        "isCorrect": false
+      },
+      {
+        "option": "Utility function",
+        "isCorrect": false
+      },
+      {
+        "option": "Zero-sum Game",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 3 Q 3"
+  },
+  {
+    "question": "Solving a constraint satisfaction problem on a finite domain is an/a ___________ problem with respect to the domain size.",
+    "options": [
+      {
+        "option": "P complete",
+        "isCorrect": false
+      },
+      {
+        "option": "NP complete",
+        "isCorrect": true
+      },
+      {
+        "option": "NP hard",
+        "isCorrect": false
+      },
+      {
+        "option": "Domain dependent",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 3 Q 4"
+  },
+  {
+    "question": "____________ is a backtracking algorithm for CSP that is aware of the underlying constraint graph; <br>determines where to jump back to, based on the actual conflict that it has recorded.",
+    "options": [
+      {
+        "option": "Plain Backtracking",
+        "isCorrect": false
+      },
+      {
+        "option": "Chronological Backtracking",
+        "isCorrect": false
+      },
+      {
+        "option": "Conflict-directed Backjumping",
+        "isCorrect": true
+      },
+      {
+        "option": "Arc Consistency",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 3 Q 5"
+  },
+  {
+    "question": "Applying alpha-beta pruning as appropriate, cut-off search below node D is __________.",
+    "options": [
+      {
+        "option": "Alpha-pruning",
+        "isCorrect": true
+      },
+      {
+        "option": "Beta-pruning",
+        "isCorrect": false
+      },
+      {
+        "option": "Incorrectly pruned",
+        "isCorrect": false
+      },
+      {
+        "option": "Deep pruning",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/Q6-10.jpg",
+    "additional": "",
+    "num": "A 3 Q 7"
+  },
+  {
+    "question": "Applying alpha-beta pruning as appropriate, cut-off search below node B is ___________.",
+    "options": [
+      {
+        "option": "Alpha-pruning",
+        "isCorrect": false
+      },
+      {
+        "option": "Beta-pruning",
+        "isCorrect": true
+      },
+      {
+        "option": "Incorrectly pruned",
+        "isCorrect": false
+      },
+      {
+        "option": "Deep pruning",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/Q6-10.jpg",
+    "additional": "",
+    "num": "A 3 Q 8"
+  },
+  {
+    "question": "Identity the correct combination of terms and definitions",
+    "options": [
+      {
+        "option": "P:X; Q:Z; R:Y",
+        "isCorrect": true
+      },
+      {
+        "option": "P:Y; Q:Z; R:X",
+        "isCorrect": false
+      },
+      {
+        "option": "P:X; Q:Y; R:Z",
+        "isCorrect": false
+      },
+      {
+        "option": "P:Y; Q:X; R:Z",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W4A4Q01.png",
+    "additional": "",
+    "num": "A 4 Q 1"
+  },
+  {
+    "question": "A knowledge representation is fundamentally a ___________;<br> a substitute for the thing itself used to enable an entity to determine consequences by reasoning about the world.",
+    "options": [
+      {
+        "option": "reasoning schema",
+        "isCorrect": false
+      },
+      {
+        "option": "surrogate",
+        "isCorrect": true
+      },
+      {
+        "option": "constraint",
+        "isCorrect": false
+      },
+      {
+        "option": "language",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 2"
+  },
+  {
+    "question": "A physical symbol system has the necessary and sufficient means for general intelligent action. <br>Identify the correct statements with regards to Symbol System Hypothesis",
+    "options": [
+      {
+        "option": "Knowledge may be represented as symbol structures.",
+        "isCorrect": true
+      },
+      {
+        "option": "Represents a computational system inspired by the human brain.",
+        "isCorrect": false
+      },
+      {
+        "option": "Intelligent behaviour can be achieved through manipulation of symbol structures.",
+        "isCorrect": true
+      },
+      {
+        "option": "Human reasoning is a kind of symbol manipulation.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 3"
+  },
+  {
+    "question": "A proposition in a KR language does not mean anything on its own.<br> The _________ (i.e. the meaning) of the proposition must be defined by the language author through _________.",
+    "options": [
+      {
+        "option": "semantics; an interpretation",
+        "isCorrect": true
+      },
+      {
+        "option": "interpretation; a semantics",
+        "isCorrect": false
+      },
+      {
+        "option": "inference, a proof",
+        "isCorrect": false
+      },
+      {
+        "option": "semantics; theorems",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 4"
+  },
+  {
+    "question": "Identify the statements that are true for propositional logic.",
+    "options": [
+      {
+        "option": "Hard to identify “individuals”.",
+        "isCorrect": true
+      },
+      {
+        "option": "Can directly talk about properties of individuals or relations between individuals.",
+        "isCorrect": false
+      },
+      {
+        "option": "Generalizations, patterns, regularities can’t easily be represented.",
+        "isCorrect": true
+      },
+      {
+        "option": "A propositional variable represents an arbitrary proposition.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 5"
+  },
+  {
+    "question": "Consider which of the following statements are correct w.r.t. entailment in first-order logic being semi-decidable. <br>I. Algorithms exist that say yes to every entailed sentence <br>II. No algorithm exists that says no to every non-entailed sentence",
+    "options": [
+      {
+        "option": "Both I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "Either I or II",
+        "isCorrect": false
+      },
+      {
+        "option": "I only",
+        "isCorrect": false
+      },
+      {
+        "option": "II only",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 6"
+  },
+  {
+    "question": "If a sentence has no free variables, it is called a _________ sentence; <br>If it has neither free nor bound variables, it is called a __________ sentence.",
+    "options": [
+      {
+        "option": "Closed; ground",
+        "isCorrect": true
+      },
+      {
+        "option": "Ground; closed",
+        "isCorrect": false
+      },
+      {
+        "option": "Formula; closed",
+        "isCorrect": false
+      },
+      {
+        "option": "Closed; formula",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 7"
+  },
+  {
+    "question": "Consider the statement ¬(P ∪ Q)≡(¬P Ո ¬Q).<br> Identify which of the following are correct.",
+    "options": [
+      {
+        "option": "Formulas ¬(P ∪ Q) and (¬P Ո ¬Q) have the same truth tables.",
+        "isCorrect": true
+      },
+      {
+        "option": "The symbol ≡ is a connective.",
+        "isCorrect": false
+      },
+      {
+        "option": "The statement is a propositional formula which evaluates to a truth value.",
+        "isCorrect": false
+      },
+      {
+        "option": "The statement means `the two formulas are equivalent.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 8"
+  },
+  {
+    "question": "Let p, q, r, s represents the following propositions. <br>p: x ∈ {8, 9, 10, 11, 12} <br>q: x is a composite number <br>r: x is a perfect square <br>s: x is a prime number <br>The integer x ≥2 which satisfies ¬ ((p → q) ∧ (¬r ∨ ¬s))",
+    "options": [
+      {
+        "option": "11",
+        "isCorrect": true
+      },
+      {
+        "option": "9",
+        "isCorrect": false
+      },
+      {
+        "option": "8",
+        "isCorrect": false
+      },
+      {
+        "option": "12",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 9"
+  },
+  {
+    "question": "Predicate F(x, y, t) is used to represent the statement: <br>Person x can fool person y at time t. <br>Select the statement below which expresses best the meaning of the formula ∀x ∃y ∃t (¬F(x, y, t))",
+    "options": [
+      {
+        "option": "Everyone can fool some person at some time.",
+        "isCorrect": false
+      },
+      {
+        "option": "No one can fool everyone all the time.",
+        "isCorrect": true
+      },
+      {
+        "option": "Everyone cannot fool some person all the time.",
+        "isCorrect": false
+      },
+      {
+        "option": "No one can fool some person at some time.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 4 Q 10"
+  },
+  {
+    "question": "Intelligent behaviour depends on knowledge. <br>Formalization of knowledge in a declarative form begins with a ______________.",
+    "options": [
+      {
+        "option": "conceptualization.",
+        "isCorrect": true
+      },
+      {
+        "option": "interpretation.",
+        "isCorrect": false
+      },
+      {
+        "option": "representation.",
+        "isCorrect": false
+      },
+      {
+        "option": "assignment.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 1"
+  },
+  {
+    "question": "A conceptualization is a triple consisting of the following",
+    "options": [
+      {
+        "option": "a universe of discourse.",
+        "isCorrect": true
+      },
+      {
+        "option": "a set of mappings from terms to objects.",
+        "isCorrect": false
+      },
+      {
+        "option": "a functional basis set for that universe of discourse.",
+        "isCorrect": true
+      },
+      {
+        "option": "a relational basis set.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 2"
+  },
+  {
+    "question": "A sentence in a formal language is true if and only if it accurately describes the world according to our conceptualization. ___________ is a mapping between elements of the language and elements of a conceptualization.",
+    "options": [
+      {
+        "option": "Conceptualization.",
+        "isCorrect": false
+      },
+      {
+        "option": "Interpretation.",
+        "isCorrect": true
+      },
+      {
+        "option": "Representation.",
+        "isCorrect": false
+      },
+      {
+        "option": "Assignment.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 3"
+  },
+  {
+    "question": "Which of the following statements are true w.r.t an interpretation?",
+    "options": [
+      {
+        "option": "Used to name a specific element of a universe of discourse.",
+        "isCorrect": true
+      },
+      {
+        "option": "Used as a mapping from terms to objects.",
+        "isCorrect": false
+      },
+      {
+        "option": "Used to designate a function on members of the universe of discourse.",
+        "isCorrect": true
+      },
+      {
+        "option": "Used to name a relation on the universe of discourse.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 4"
+  },
+  {
+    "question": "P, Q and R are logical propositions. Identify the statements as tautology, and / or contradiction? <br>I. ((P∨Q)∧R)↔((P∧R)∨(Q∧R)) <br>II. (P↔Q)∧(Q↔R)∧¬(P↔R)",
+    "options": [
+      {
+        "option": "I. Tautology; II. Contradiction.",
+        "isCorrect": true
+      },
+      {
+        "option": "I. Contradiction; II. Tautology.",
+        "isCorrect": false
+      },
+      {
+        "option": "Both Tautologies.",
+        "isCorrect": false
+      },
+      {
+        "option": "Both Contradictions.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 5"
+  },
+  {
+    "question": "In existential instantiation, the variable is replaced by a brand-new constant not occurring in this or any other sentence in the KB. <br>The constant so introduced is called a ________ constant.",
+    "options": [
+      {
+        "option": "Skolem",
+        "isCorrect": true
+      },
+      {
+        "option": "Universal",
+        "isCorrect": false
+      },
+      {
+        "option": "Existenstial",
+        "isCorrect": false
+      },
+      {
+        "option": "Predicate",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 6"
+  },
+  {
+    "question": "Consider which of the following statements are correct w.r.t. satisfiability of logical sentences based on the logical operators involved. <br>I. Universally quantified sentence is satisfied if and only if the enclosed statement is satisfied for all assignments of the quantified variable. <br>II. Existentially quantified sentence is satisfied if and only if the enclosed statement is satisfied for few assignments of the quantified variable.",
+    "options": [
+      {
+        "option": "Both I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Either I or II",
+        "isCorrect": false
+      },
+      {
+        "option": "I only",
+        "isCorrect": true
+      },
+      {
+        "option": "II only",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 7"
+  },
+  {
+    "question": "An interpretation of a set of FOL sentences, such that every sentence is true, is a ________.",
+    "options": [
+      {
+        "option": "Model",
+        "isCorrect": true
+      },
+      {
+        "option": "Tautology",
+        "isCorrect": false
+      },
+      {
+        "option": "Formalization",
+        "isCorrect": false
+      },
+      {
+        "option": "Proof",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 8"
+  },
+  {
+    "question": "For the following pair of atomic sentences, give the most general unifier, if it exists: <br>i. Older(Father(y), y) <br>ii. Older(Father(x), John)",
+    "options": [
+      {
+        "option": "{y/x, x/John}",
+        "isCorrect": false
+      },
+      {
+        "option": "{x/y}",
+        "isCorrect": false
+      },
+      {
+        "option": "{y/John, x/John}",
+        "isCorrect": true
+      },
+      {
+        "option": "Cannot unify",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 9"
+  },
+  {
+    "question": "To unify Knows(John, x) with Knows(y, z) we can have unifiers θ1 = { y/John, x/z } or θ2= { y/John, x/John, z/John}.<br> Which of the following statements are correct? <br>I. The first unifier θ1 is more general than the second θ2. <br>II. There is a single most general unifier (MGU); MGU = {y/John, x/z}.",
+    "options": [
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "None.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 5 Q 10"
+  },
+  {
+    "question": "If Φ logically follows from Δ the set __________ is unsatisfiable. <br>Applying resolution repeatedly to a set of unsatisfiable clauses, eventually produces the empty clause.",
+    "options": [
+      {
+        "option": "Δ",
+        "isCorrect": false
+      },
+      {
+        "option": "¬Φ ∪Φ",
+        "isCorrect": false
+      },
+      {
+        "option": "Δ ∪¬Φ",
+        "isCorrect": true
+      },
+      {
+        "option": "Δ ∪ Φ",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 6 Q 1"
+  },
+  {
+    "question": "Answer extraction involves converting a refutation tree to a proof tree with statement at the root that can be used as an answer. <br>Which of the following are true w.r.t the above process of answer extraction? <br>I. Convert every clause arising from the negation of the goal well-formed formula into a tautology. <br>II. The statement at the root of the Modified Proof Tree logically follows from the axioms and the tautologies.",
+    "options": [
+      {
+        "option": "Either I or II",
+        "isCorrect": false
+      },
+      {
+        "option": "Both I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "I only",
+        "isCorrect": false
+      },
+      {
+        "option": "II only",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 6 Q 2"
+  },
+  {
+    "question": "Under which of the following conditions, a clause {Li} subsumes a clause {Mi}, if there exists a substitution 's'? <br>Condition 1: {Li}s is a subset of {Mi}<br> Condition 2: {Mi}s is a subset of {Li}",
+    "options": [
+      {
+        "option": "No clause ever subsumes another clause.",
+        "isCorrect": false
+      },
+      {
+        "option": "Condition 1 only",
+        "isCorrect": true
+      },
+      {
+        "option": "Both Condition 1 and Condition 2",
+        "isCorrect": false
+      },
+      {
+        "option": "Condition 2 only",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 6 Q 3"
+  },
+  {
+    "question": "In ______________________ strategy of resolution refutation, each resolvent has a parent that is either in the base set or that is an ancestor of the other parent.",
+    "options": [
+      {
+        "option": "Set-of-support",
+        "isCorrect": false
+      },
+      {
+        "option": "Unit Preference",
+        "isCorrect": false
+      },
+      {
+        "option": "Linear-input Form",
+        "isCorrect": false
+      },
+      {
+        "option": "Ancestry-filtered Form",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 6 Q 4"
+  },
+  {
+    "question": "In first-order logic, each variable refers to some object in a set called the _________.",
+    "options": [
+      {
+        "option": "domain of discourse",
+        "isCorrect": true
+      },
+      {
+        "option": "knowledge base",
+        "isCorrect": false
+      },
+      {
+        "option": "interpretation",
+        "isCorrect": false
+      },
+      {
+        "option": "semantics",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 6 Q 5"
+  },
+  {
+    "question": "Give the FOL statement for the following. One's husband is one's male spouse.",
+    "options": [
+      {
+        "option": "∀x (∀y Husband (x,y) ∧ Spouse(x,y)) → Male(x)",
+        "isCorrect": false
+      },
+      {
+        "option": "∀x, y Husband(x,y) « Male(x) ∧Spouse(x,y)",
+        "isCorrect": true
+      },
+      {
+        "option": "∀x∃y (Female (y) ∧ Husband(x,y)) ∧ Spouse(x,y))",
+        "isCorrect": false
+      },
+      {
+        "option": "∀y (∃x Female (y) ∧ Husband(x,y)) → Spouse(x,y)",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "Consider the following representation in First Order Logic using the predicates listed below:<br>Rohan is a male.<br>One’s husband is one’s male spouse.<br>Rohan is Reena’s spouse.<br>Rohan owns a house.<br>Every house owner is a home-builder.<br><br> Male(x)                x is a male<br> Female(x)            x is a female<br> Husband(x,y)       x is the husband of y<br> Spouse(x,y)         x is the spouse of y<br> House (x)             x is a house<br> Owns (x,y)            x owns y<br> Home-builder(x)   x is a home-builder",
+    "num": "A 6 Q 6"
+  },
+  {
+    "question": "Given the above facts and predicates, state the axiom required to infer the fact: Female(Reena).",
+    "options": [
+      {
+        "option": "∀xy [Spouse(x,y)∨Male(x)] →Female(y)",
+        "isCorrect": false
+      },
+      {
+        "option": "∀xy Spouse(x,y) →Female(y)",
+        "isCorrect": false
+      },
+      {
+        "option": "∀xy [Spouse(x,y) ∧Male(x)] →Female(y)",
+        "isCorrect": true
+      },
+      {
+        "option": "∀xy Male(x) →Female(y)",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "Consider the following representation in First Order Logic using the predicates listed below:<br>Rohan is a male.<br>One’s husband is one’s male spouse.<br>Rohan is Reena’s spouse.<br>Rohan owns a house.<br>Every house owner is a home-builder.<br><br> Male(x)                x is a male<br> Female(x)            x is a female<br> Husband(x,y)       x is the husband of y<br> Spouse(x,y)         x is the spouse of y<br> House (x)             x is a house<br> Owns (x,y)            x owns y<br> Home-builder(x)   x is a home-builder",
+    "num": "A 6 Q 7"
+  },
+  {
+    "question": "Translate the following English sentence to FOL. Rohan owns a house.",
+    "options": [
+      {
+        "option": "∃x( House(x) → Owns(Rohan,x))",
+        "isCorrect": false
+      },
+      {
+        "option": "∀x(House (x) ∧ Owns(Rohan,x))",
+        "isCorrect": false
+      },
+      {
+        "option": "∃x( House(x) ∧ Owns(Rohan,x))",
+        "isCorrect": true
+      },
+      {
+        "option": "∀x(House(x) → Owns(Rohan,x))",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "Consider the following representation in First Order Logic using the predicates listed below:<br>Rohan is a male.<br>One’s husband is one’s male spouse.<br>Rohan is Reena’s spouse.<br>Rohan owns a house.<br>Every house owner is a home-builder.<br><br> Male(x)                x is a male<br> Female(x)            x is a female<br> Husband(x,y)       x is the husband of y<br> Spouse(x,y)         x is the spouse of y<br> House (x)             x is a house<br> Owns (x,y)            x owns y<br> Home-builder(x)   x is a home-builder",
+    "num": "A 6 Q 8"
+  },
+  {
+    "question": "Translate the following English sentence to FOL. Every house owner is a home-builder.",
+    "options": [
+      {
+        "option": "∀x (∀y House (y) ∧ Owns(x,y)) → Home-builder(x )",
+        "isCorrect": false
+      },
+      {
+        "option": "∀x (∃y House (y) ∧ Owns(x,y)) → Home-builder(x)",
+        "isCorrect": true
+      },
+      {
+        "option": "∀x∃x (House(x) ∧ Owns(x,y)) ∧ Home-builder(x))",
+        "isCorrect": false
+      },
+      {
+        "option": "∀y (∃x House(y) ∧ Owns(x,y)) → Home-builder(x)",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "Consider the following representation in First Order Logic using the predicates listed below:<br>Rohan is a male.<br>One’s husband is one’s male spouse.<br>Rohan is Reena’s spouse.<br>Rohan owns a house.<br>Every house owner is a home-builder.<br><br> Male(x)                x is a male<br> Female(x)            x is a female<br> Husband(x,y)       x is the husband of y<br> Spouse(x,y)         x is the spouse of y<br> House (x)             x is a house<br> Owns (x,y)            x owns y<br> Home-builder(x)   x is a home-builder",
+    "num": "A 6 Q 9"
+  },
+  {
+    "question": "Given the above facts and predicates, with the help of an answer extraction tree state; <br>Who is a home-builder? <br>Add suitable axioms required (if any).",
+    "options": [
+      {
+        "option": "Rohan",
+        "isCorrect": true
+      },
+      {
+        "option": "Reena",
+        "isCorrect": false
+      },
+      {
+        "option": "Nobody",
+        "isCorrect": false
+      },
+      {
+        "option": "Everybody",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "Consider the following representation in First Order Logic using the predicates listed below:<br>Rohan is a male.<br>One’s husband is one’s male spouse.<br>Rohan is Reena’s spouse.<br>Rohan owns a house.<br>Every house owner is a home-builder.<br><br> Male(x)                x is a male<br> Female(x)            x is a female<br> Husband(x,y)       x is the husband of y<br> Spouse(x,y)         x is the spouse of y<br> House (x)             x is a house<br> Owns (x,y)            x owns y<br> Home-builder(x)   x is a home-builder",
+    "num": "A 6 Q 10"
+  },
+  {
+    "question": "Probability provides a way of summarizing the ___________ that comes from our laziness and ignorance.",
+    "options": [
+      {
+        "option": "vagueness",
+        "isCorrect": false
+      },
+      {
+        "option": "randomness",
+        "isCorrect": false
+      },
+      {
+        "option": "belief",
+        "isCorrect": false
+      },
+      {
+        "option": "uncertainty.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 7 Q 1"
+  },
+  {
+    "question": "Bayes rule can be used to ________ conditioned on one piece of evidence.",
+    "options": [
+      {
+        "option": "Solve queries",
+        "isCorrect": false
+      },
+      {
+        "option": "Increase complexity of a query",
+        "isCorrect": false
+      },
+      {
+        "option": "Decrease complexity of a query",
+        "isCorrect": false
+      },
+      {
+        "option": "Answer probabilistic queries",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 7 Q 2"
+  },
+  {
+    "question": "__________ provides ways and means of weighing up the desirability of goals and the likelihood of achieving them.",
+    "options": [
+      {
+        "option": "Decision Theory",
+        "isCorrect": false
+      },
+      {
+        "option": "Utility Theory",
+        "isCorrect": true
+      },
+      {
+        "option": "Probability Theory",
+        "isCorrect": false
+      },
+      {
+        "option": "Bayesian Networks",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 7 Q 3"
+  },
+  {
+    "question": "Modelling with Bayesian Networks require an assumption: <br>There are no direct dependencies in the system being modelled which are not already explicitly shown via arcs. <br>This is referred to as the ___________.",
+    "options": [
+      {
+        "option": "Bayesian Dependency",
+        "isCorrect": false
+      },
+      {
+        "option": "Markov Property",
+        "isCorrect": true
+      },
+      {
+        "option": "Bayesian Property",
+        "isCorrect": false
+      },
+      {
+        "option": "Arc Consistency",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 7 Q 4"
+  },
+  {
+    "question": "Which of the following statements are true for a rational agent that maximizes utility while taking a decision? <br>I. A rational agent should choose the action that maximizes the agent’s expected utility <br>II. Maximizing expected utility (MEU) is a normative criterion for rational choices of actions.",
+    "options": [
+      {
+        "option": "I Only",
+        "isCorrect": false
+      },
+      {
+        "option": "II Only",
+        "isCorrect": false
+      },
+      {
+        "option": "Both I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "None",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 7 Q 5"
+  },
+  {
+    "question": "A and B are conditionally dependent if C or any of its descendants i.e., D or E, have received",
+    "options": [
+      {
+        "option": "True",
+        "isCorrect": true
+      },
+      {
+        "option": "False",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W7A7Q06.jpg",
+    "additional": "",
+    "num": "A 7 Q 6"
+  },
+  {
+    "question": "E is conditionally independent of A, B and D if C is not instantiated.",
+    "options": [
+      {
+        "option": "True",
+        "isCorrect": false
+      },
+      {
+        "option": "False",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W7A7Q06.jpg",
+    "additional": "",
+    "num": "A 7 Q 7"
+  },
+  {
+    "question": "D and E are conditionally dependent if C is not instantiated.",
+    "options": [
+      {
+        "option": "True",
+        "isCorrect": true
+      },
+      {
+        "option": "False",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W7A7Q06.jpg",
+    "additional": "",
+    "num": "A 7 Q 8"
+  },
+  {
+    "question": "Compute P(¬A, B, ¬C, D)",
+    "options": [
+      {
+        "option": "0.216",
+        "isCorrect": true
+      },
+      {
+        "option": "0.054",
+        "isCorrect": false
+      },
+      {
+        "option": "0.024",
+        "isCorrect": false
+      },
+      {
+        "option": "0.006",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W7A7Q09.jpg",
+    "additional": "",
+    "num": "A 7 Q 9"
+  },
+  {
+    "question": "Compute P(A | B, C, D)",
+    "options": [
+      {
+        "option": "0.0315",
+        "isCorrect": false
+      },
+      {
+        "option": "0.0855",
+        "isCorrect": false
+      },
+      {
+        "option": "0.368",
+        "isCorrect": true
+      },
+      {
+        "option": "0.583",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc22_ge29/W7A7Q09.jpg",
+    "additional": "",
+    "num": "A 7 Q 10"
+  },
+  {
+    "question": "Planning algorithms use descriptions in some formal language, usually first-order logic or a subset thereof. <br>The first key idea behind planning is to \"open up \" the representation of",
+    "options": [
+      {
+        "option": "States",
+        "isCorrect": true
+      },
+      {
+        "option": "Actions",
+        "isCorrect": true
+      },
+      {
+        "option": "Beliefs",
+        "isCorrect": false
+      },
+      {
+        "option": "Goals",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 1"
+  },
+  {
+    "question": "Situation calculus is a dialect of First Order Logic.<br> Which of the following statements hold for situation calculus?",
+    "options": [
+      {
+        "option": "Situations and actions are explicitly taken to be objects in the domain.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only way to represent beliefs about a changing world.",
+        "isCorrect": false
+      },
+      {
+        "option": "Successor-state axiom specifies truth value of fluent in the next state as a function of the action and truth value in the current state.",
+        "isCorrect": true
+      },
+      {
+        "option": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 2"
+  },
+  {
+    "question": "STRIPS is an alternative representation to the pure situation calculus for planning. <br>I. Actions are not represented explicitly as part of the world model. <br>II. Actions are effectively instantaneous. <br>III. Actions are thought of as operators that syntactically transform world models. <br>Which of the above statements are correct?",
+    "options": [
+      {
+        "option": "Only Statements I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I, II and III",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statements II and III",
+        "isCorrect": false
+      },
+      {
+        "option": "None",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 3"
+  },
+  {
+    "question": "STRIPS make use of a stack that contains both sub-goals and actions that have been proposed to satisfy those sub-goals. <br>The reasoning strategy used by STRIPS is ______________",
+    "options": [
+      {
+        "option": "Database Planning",
+        "isCorrect": false
+      },
+      {
+        "option": "Goal Stack Planning",
+        "isCorrect": true
+      },
+      {
+        "option": "List Planning",
+        "isCorrect": false
+      },
+      {
+        "option": "Sub-goal Planning",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 4"
+  },
+  {
+    "question": "ABSTRIPS greatly reduces search space, and is more efficient at solving large problems. I<br>t is a kind of _____________ planner.",
+    "options": [
+      {
+        "option": "State-space",
+        "isCorrect": false
+      },
+      {
+        "option": "Regular",
+        "isCorrect": false
+      },
+      {
+        "option": "Hierarchical",
+        "isCorrect": true
+      },
+      {
+        "option": "Advanced",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 5"
+  },
+  {
+    "question": "Backward state-space search will find the solution from the goal to action; <br>it is also called _________.",
+    "options": [
+      {
+        "option": "Regression Planning",
+        "isCorrect": true
+      },
+      {
+        "option": "Progression Planning",
+        "isCorrect": false
+      },
+      {
+        "option": "Plan Space Planning",
+        "isCorrect": false
+      },
+      {
+        "option": "Graph-based Planning",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 6"
+  },
+  {
+    "question": "Representing all that stays unchanged, needs to be accomplished in addition to describing what changes when an action is applied. <br>One must find an efficient solution for stating what doesn't change. <br>This dilemma is referred to as the ____________.",
+    "options": [
+      {
+        "option": "Situation Calculus",
+        "isCorrect": false
+      },
+      {
+        "option": "Frame Problem",
+        "isCorrect": true
+      },
+      {
+        "option": "Planning Problem",
+        "isCorrect": false
+      },
+      {
+        "option": "Fluent",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 7"
+  },
+  {
+    "question": "During the construction of the planning graph, information about the conflict between operators and literals within a layer is maintained. <br>I. A conflict is called a mutex condition, which means that a pair of literal or pair of operators is mutually exclusive. <br>II. For such a pair, both cannot be chosen simultaneously without leading to some kind of conflict. Which of the above statements are correct?",
+    "options": [
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "Both Statements I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      },
+      {
+        "option": "None",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 8"
+  },
+  {
+    "question": "Progression and regression planning are totally ordered plan search forms. <br>They cannot take advantage of ___________.",
+    "options": [
+      {
+        "option": "domain information",
+        "isCorrect": false
+      },
+      {
+        "option": "state space search",
+        "isCorrect": false
+      },
+      {
+        "option": "problem decomposition",
+        "isCorrect": true
+      },
+      {
+        "option": "composition",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 9"
+  },
+  {
+    "question": "GraphPlan is a two-phase algorithm: <br>Planning Graph Construction followed by Solution Extraction.<br> Which of the following does the first stage achieve?",
+    "options": [
+      {
+        "option": "Delimiting the search space.",
+        "isCorrect": true
+      },
+      {
+        "option": "Check if a solution can be extracted.",
+        "isCorrect": false
+      },
+      {
+        "option": "Some kind of reachability analysis on the given problem.",
+        "isCorrect": true
+      },
+      {
+        "option": "The graph is treated as a constraint satisfaction problem.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 8 Q 10"
+  },
+  {
+    "question": "STRIPS is an alternative representation to the pure situation calculus for planning. <br>Real world domains are complex and don’t satisfy the assumptions of STRIPS. <br>Which of the following statements are correct for STRIPS?",
+    "options": [
+      {
+        "option": "Hierarchical Plans cannot be expressed in STRIPS.",
+        "isCorrect": true
+      },
+      {
+        "option": "STRIPS operators are essentially propositional.",
+        "isCorrect": true
+      },
+      {
+        "option": "STRIPS assumes that all actions occur instantaneously.",
+        "isCorrect": true
+      },
+      {
+        "option": "Constraints on resources can be handled efficiently in STRIPS.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 1"
+  },
+  {
+    "question": "In real-world domains, agents have to deal with both incomplete and incorrect information.<br> Which of the following statements are TRUE with regards to incomplete and incorrect information. <br>I. Incompleteness arises because the world is inaccessible. <br>II. Incompleteness arises because the world does not necessarily match the agent's model of it.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement I",
+        "isCorrect": true
+      },
+      {
+        "option": "None.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 2"
+  },
+  {
+    "question": "Hierarchical decomposition or Hierarchical Task Network (HTN) planning, allows non-primitive operators to be included in plans. <br>Which of the following statements are true?",
+    "options": [
+      {
+        "option": "Hierarchical planning allows very complex plans to be built up.",
+        "isCorrect": true
+      },
+      {
+        "option": "Primitive operators represent actions that cannot appear in the final plan.",
+        "isCorrect": false
+      },
+      {
+        "option": "It is possible to replace a non-primitive operator with its decomposition.",
+        "isCorrect": true
+      },
+      {
+        "option": "HTN uses abstract operators to incrementally decompose a planning problem.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 3"
+  },
+  {
+    "question": "Sequential decision problems, which include utilities, uncertainty, and sensing, generalize the search and planning problems. <br>Transition model refers to the following:",
+    "options": [
+      {
+        "option": "set of probabilities associated with the possible transitions between states after any given action.",
+        "isCorrect": true
+      },
+      {
+        "option": "a complete mapping from states to actions.",
+        "isCorrect": false
+      },
+      {
+        "option": "function be specified for the agent in order to determine the value of an action.",
+        "isCorrect": false
+      },
+      {
+        "option": "specification of the outcome probabilities for each action in each possible state.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 4"
+  },
+  {
+    "question": "Policy Iteration is an alternate algorithm for computing an optimal policy. <br>The basic idea includes",
+    "options": [
+      {
+        "option": "Computing the utility of each state.",
+        "isCorrect": false
+      },
+      {
+        "option": "Use state utilities to select an optimal action in each state.",
+        "isCorrect": false
+      },
+      {
+        "option": "Calculate a new Maximum Expected Utility policy based on computed utilities.",
+        "isCorrect": true
+      },
+      {
+        "option": "Start with a random policy and calculate utilities based on if that policy were executed.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 5"
+  },
+  {
+    "question": "For a sequential decision problem, the search algorithm looking for a sequence of actions that leads to a good state, return not the fixed sequence of actions; <br>rather a policy, which refers to",
+    "options": [
+      {
+        "option": "a set of situation-action rules for each state.",
+        "isCorrect": true
+      },
+      {
+        "option": "progressively discounted rewards of states.",
+        "isCorrect": false
+      },
+      {
+        "option": "utility function based on a sequence of states.",
+        "isCorrect": false
+      },
+      {
+        "option": "shortest path to goal.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 6"
+  },
+  {
+    "question": "Sensor model in a belief network is the conditional probability table associated with the percept node; <br>and show how reliable they are as sensors. <br>Which of the following statements are correct for a sensor model?",
+    "options": [
+      {
+        "option": "If the sensor gives a perfect report of the state, then the sensor model (the CPT) will be purely deterministic.",
+        "isCorrect": true
+      },
+      {
+        "option": "If the sensor gives a perfect report of the state, then the sensor model (the CPT) will be purely probabilistic.",
+        "isCorrect": false
+      },
+      {
+        "option": "In order for the system to handle sensor failure, the sensor model must include the possibility of failure; sensor failure in turn affects the sensor\u0027s accuracy.",
+        "isCorrect": true
+      },
+      {
+        "option": "Sensor model describes how the environment generates the sensor data.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 7"
+  },
+  {
+    "question": "_______ provides ways and means of weighing up the desirability of goals and the likelihood of achieving them.",
+    "options": [
+      {
+        "option": "Decision Theory",
+        "isCorrect": false
+      },
+      {
+        "option": "Utility Theory",
+        "isCorrect": true
+      },
+      {
+        "option": "Probability Theory",
+        "isCorrect": false
+      },
+      {
+        "option": "Bayesian Networks",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 8"
+  },
+  {
+    "question": "________________ provide a general, concise representation for large POMDP, so they can be used as inputs for any POMDP algorithm including value and policy iteration methods.",
+    "options": [
+      {
+        "option": "Bayesian Networks",
+        "isCorrect": false
+      },
+      {
+        "option": "Decision Networks",
+        "isCorrect": false
+      },
+      {
+        "option": "Dynamic Decision Networks",
+        "isCorrect": true
+      },
+      {
+        "option": "Dynamic Belief Networks",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 9"
+  },
+  {
+    "question": "Partially Observable Markov Decision Problems, or POMDP are characterized by the following conditions:",
+    "options": [
+      {
+        "option": "Percept does not provide enough information to determine the state or the associated transition probabilities.",
+        "isCorrect": true
+      },
+      {
+        "option": "The Markov property does not hold for percepts (as opposed to states).",
+        "isCorrect": true
+      },
+      {
+        "option": "Calculating an optimal policy in an accessible, stochastic environment with a known transition model.",
+        "isCorrect": false
+      },
+      {
+        "option": "Include the value of information as one component of the decision problem.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 9 Q 10"
+  },
+  {
+    "question": "Who is recognized for coining the term Machine Learning?",
+    "options": [
+      {
+        "option": "John McCarthy.",
+        "isCorrect": false
+      },
+      {
+        "option": "Arthur Samuel.",
+        "isCorrect": true
+      },
+      {
+        "option": "Herbert Simon",
+        "isCorrect": false
+      },
+      {
+        "option": "Tom M. Mitchell",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 1"
+  },
+  {
+    "question": "Artificial Intelligence and Machine Learning are often used interchangeably. <br>Identify the correct statements with regards to Machine Learning.",
+    "options": [
+      {
+        "option": "Artificial Intelligence is a subset of Machine Learning.",
+        "isCorrect": false
+      },
+      {
+        "option": "Machine Learning is a subset of Artificial Intelligence.",
+        "isCorrect": true
+      },
+      {
+        "option": "Machine Learning is concerned with creating a General Problem Solver.",
+        "isCorrect": false
+      },
+      {
+        "option": "Machine learning is concerned with building computer programs that improve performance with experience.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 2"
+  },
+  {
+    "question": "Which of the following statements are correct for Machine Learning vis-à-vis Statistics? <br>I. Machine learning deals with Low-dimensional data [e.g. less than 100 D]. <br>II. Huge amount of structure in the data; methods involve figuring out a way to represent this structure.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "None.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 3"
+  },
+  {
+    "question": "Clustering is a technique for finding similarity groups in data, called clusters. <br>Identify the correct statements vis-à-vis clustering. <br>I. Clustering is an unsupervised learning task. <br>II. In clustering problems, class labels are not specified; only the feature vectors representing different objects/instances/ records or situations are known. <br>III. A cluster is a collection of data items which are “similar” between them, and “dissimilar” to data items in other clusters.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I, II and III",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 4"
+  },
+  {
+    "question": "Consider the following statements about regression; <br>Which of them are true? <br>I. It relates inputs to outputs. <br>II. It is used for prediction. <br>III. It may be used for interpretation.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I, II and III",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 5"
+  },
+  {
+    "question": "In a learning agent, the __________ informs the learning element about the performance of the action. <br>It must use a fixed standard of performance.",
+    "options": [
+      {
+        "option": "Critic",
+        "isCorrect": true
+      },
+      {
+        "option": "Learning element",
+        "isCorrect": false
+      },
+      {
+        "option": "Performance element",
+        "isCorrect": false
+      },
+      {
+        "option": "Problem generator",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 6"
+  },
+  {
+    "question": "Which of the following statements true for Decision Tree as performance element?",
+    "options": [
+      {
+        "option": "Decision Tree does not take objects or situations into account.",
+        "isCorrect": false
+      },
+      {
+        "option": "Decision Trees represent Boolean functions.",
+        "isCorrect": true
+      },
+      {
+        "option": "Decision Trees are conceptually simple.",
+        "isCorrect": true
+      },
+      {
+        "option": "Decision Trees have good correspondence to human decision making",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 7"
+  },
+  {
+    "question": "To implement Choose-Attribute in the Decision Tree Learning algorithm, we need a formal measure of “fairly good” and “really useless”.<br> _____________ provides a mathematical basis for measuring the information content.",
+    "options": [
+      {
+        "option": "Information Theory",
+        "isCorrect": true
+      },
+      {
+        "option": "Utility Theory.",
+        "isCorrect": false
+      },
+      {
+        "option": "Decision Theory",
+        "isCorrect": false
+      },
+      {
+        "option": "Probability Theory",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 8"
+  },
+  {
+    "question": "Information content is the average information per message. <br>Information content is also called _________________________.",
+    "options": [
+      {
+        "option": "entropy",
+        "isCorrect": true
+      },
+      {
+        "option": "enthalpy",
+        "isCorrect": false
+      },
+      {
+        "option": "information gain",
+        "isCorrect": false
+      },
+      {
+        "option": "knowledge",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 9"
+  },
+  {
+    "question": "Decision Tree Learning is one of the most widely used techniques for _______________.",
+    "options": [
+      {
+        "option": "clustering",
+        "isCorrect": false
+      },
+      {
+        "option": "regression",
+        "isCorrect": false
+      },
+      {
+        "option": "classification",
+        "isCorrect": true
+      },
+      {
+        "option": "projection",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 10 Q 10"
+  },
+  {
+    "question": "_____________ learning exemplifies the function approximation problem;<br> where the goal is to produce a prediction y* in response to a query x*; <br>generally, form their predictions via a learned mapping, which produces an output for each input.",
+    "options": [
+      {
+        "option": "Supervised",
+        "isCorrect": true
+      },
+      {
+        "option": "Unsupervised",
+        "isCorrect": false
+      },
+      {
+        "option": "Semisupervised",
+        "isCorrect": false
+      },
+      {
+        "option": "Reinforcement",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 1"
+  },
+  {
+    "question": "Clustering is hard to evaluate, but very useful in practice. <br>Cluster evaluation can be done using the following:",
+    "options": [
+      {
+        "option": "Compactness for intra-cluster cohesion.",
+        "isCorrect": true
+      },
+      {
+        "option": "Isolation for inter-cluster separation.",
+        "isCorrect": true
+      },
+      {
+        "option": "Comparison with the correct clusters.",
+        "isCorrect": false
+      },
+      {
+        "option": "Labelled data as ground truth for cluster evaluation through classification.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 2"
+  },
+  {
+    "question": "Why is clustering often called an unsupervised learning task?",
+    "options": [
+      {
+        "option": "It groups data instances that are similar to (near) each other.",
+        "isCorrect": false
+      },
+      {
+        "option": "Partitioning is the most simple and basic version of cluster analysis.",
+        "isCorrect": false
+      },
+      {
+        "option": "No class values denoting an a priori grouping of the data instances are given.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only the feature vectors representing different objects/instances/ records or situations are known.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 3"
+  },
+  {
+    "question": "Intra-cluster cohesion measures how near the data points in a cluster are to the cluster centroid and is a reflection of ____________.",
+    "options": [
+      {
+        "option": "Similarity.",
+        "isCorrect": false
+      },
+      {
+        "option": "Dissimilarity.",
+        "isCorrect": false
+      },
+      {
+        "option": "Compactness.",
+        "isCorrect": true
+      },
+      {
+        "option": "Isolation.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 4"
+  },
+  {
+    "question": "Regression finds relation between variables where changes in some variables may “explain” or possibly “cause” changes in other variables. <br>Identify the correct statements with regards to dependent and independent variables for a regression problem.",
+    "options": [
+      {
+        "option": "A variable whose value change when there is any manipulation in the values of independent variable is a dependent variable.",
+        "isCorrect": true
+      },
+      {
+        "option": "A variable whose value change by the effect of other variables is an independent variable.",
+        "isCorrect": false
+      },
+      {
+        "option": "Explanatory variables are termed the independent variables.",
+        "isCorrect": true
+      },
+      {
+        "option": "The variables to be explained are termed the dependent variables.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 5"
+  },
+  {
+    "question": "Which of the following statements are correct for a Maximum Margin Classifier? <br>I. Best hyperplane is the one that represents the largest separation, or margin, between the two classes. <br>II. The linear classifier defined by the maximum-margin hyperplane is known as a maximum-margin classifier.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "Only Statement II",
+        "isCorrect": false
+      },
+      {
+        "option": "Only Statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "None.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 6"
+  },
+  {
+    "question": "Exclusive reliance on dot products enables approach to solve non-linear problems in a support vector machine because of the following <br>I. Learning depends only on dot products of sample pairs. <br>II. Classification depends only on dot products of unknown with samples.",
+    "options": [
+      {
+        "option": "Only statement I.",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I and II above.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only statement II.",
+        "isCorrect": false
+      },
+      {
+        "option": "None of above.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 7"
+  },
+  {
+    "question": "In SVM classification, examples closest to the hyperplane separating the positive from the negative samples are referred to as the _________________________.",
+    "options": [
+      {
+        "option": "margins.",
+        "isCorrect": false
+      },
+      {
+        "option": "support vectors.",
+        "isCorrect": true
+      },
+      {
+        "option": "kernel.",
+        "isCorrect": false
+      },
+      {
+        "option": "boundaries",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 8"
+  },
+  {
+    "question": "Hierarchical algorithms find successive clusters using previously established clusters. ________________ begin with each element as a separate cluster and merge them into successively larger cluster.",
+    "options": [
+      {
+        "option": "Agglomerative algorithms",
+        "isCorrect": true
+      },
+      {
+        "option": "Divisive algorithms",
+        "isCorrect": false
+      },
+      {
+        "option": "Bayesian algorithms",
+        "isCorrect": false
+      },
+      {
+        "option": "Partitional algorithms",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 9"
+  },
+  {
+    "question": "Exclusive reliance on dot products enables approach to solve non-linear problems in a support vector machine because of the following <br>I. Learning depends only on dot products of sample pairs. <br>II. Classification depends only on dot products of unknown with samples.",
+    "options": [
+      {
+        "option": "Only statement I.",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I and II.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only statement II.",
+        "isCorrect": false
+      },
+      {
+        "option": "None of above.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 11 Q 10"
+  },
+  {
+    "question": "A Reinforcement Learning (RL) agent interacting in an environment may include one or more of the following components: <br>Policy, Value function and Model. <br>Identify the correct statements in the context of a RL agent?",
+    "options": [
+      {
+        "option": "A policy is the agent’s behaviour and is a map from state to action.",
+        "isCorrect": true
+      },
+      {
+        "option": "A model is the agent’s representation of the environment; predicts what it will do next.",
+        "isCorrect": true
+      },
+      {
+        "option": "The environment need not be observable",
+        "isCorrect": false
+      },
+      {
+        "option": "Value function is a prediction of the next state.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 1"
+  },
+  {
+    "question": "A computational model of a single neuron that can only represent linearly separable functions is the __________.",
+    "options": [
+      {
+        "option": "Perceptron.",
+        "isCorrect": true
+      },
+      {
+        "option": "Restricted Boltzmann Machine.",
+        "isCorrect": false
+      },
+      {
+        "option": "Autoencoder.",
+        "isCorrect": false
+      },
+      {
+        "option": "Convolutional Layer.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 2"
+  },
+  {
+    "question": "A perceptron is a ______________",
+    "options": [
+      {
+        "option": "Feed-forward neural network",
+        "isCorrect": true
+      },
+      {
+        "option": "Backpropagation algorithm",
+        "isCorrect": false
+      },
+      {
+        "option": "Backtracking algorithm",
+        "isCorrect": false
+      },
+      {
+        "option": "Feed forward-backward algorithm",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 3"
+  },
+  {
+    "question": "Rosenblatt and others described multilayer feed-forward networks in the late 1950s, but concentrated their research on single-layer perceptron. <br>This was because of the following reasons:",
+    "options": [
+      {
+        "option": "Difficulty of finding a sensible way to update the weights between the inputs and the hidden units.",
+        "isCorrect": true
+      },
+      {
+        "option": "The back-propagation learning algorithm cannot be used.",
+        "isCorrect": false
+      },
+      {
+        "option": "Learning in complex networks with more than one layer is much more complicated.",
+        "isCorrect": true
+      },
+      {
+        "option": "Perceptrons can learn from examples through a simple learning rule.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 4"
+  },
+  {
+    "question": "Learning in a multi-layer network proceeds the same way as for perceptron; <br>Identify which of the following statements are true for the back-propagation algorithm?",
+    "options": [
+      {
+        "option": "Essentially performs gradient-descent search on the error surface.",
+        "isCorrect": true
+      },
+      {
+        "option": "Finds a mapping from state/action pairs to values.",
+        "isCorrect": false
+      },
+      {
+        "option": "one of the simplest and most general methods used for supervised training of multilayered networks.",
+        "isCorrect": true
+      },
+      {
+        "option": "Assigns blame to individual units in the respective layers.",
+        "isCorrect": true
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 5"
+  },
+  {
+    "question": "The layers involved in any CNN model are the convolution layers and the subsampling / pooling layers which allow the network learn filters that are specific to specific parts in an image. <br>Which of the following are true? <br>I. The convolution layers help the network retain the spatial arrangement of pixels that is present in any image. <br>II. The pooling layers allow the network to summarize the pixel information.",
+    "options": [
+      {
+        "option": "Only statement I.",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I and II.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only statement II.",
+        "isCorrect": false
+      },
+      {
+        "option": "None of above.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 6"
+  },
+  {
+    "question": "Within Deep Neural Networks, _________________________ is a three-layer neural network that tries to reconstruct its input in its output layer. <br>The output layer contains the same number of units as the input layer.",
+    "options": [
+      {
+        "option": "Convolutional Neural Network",
+        "isCorrect": false
+      },
+      {
+        "option": "Autoencoder",
+        "isCorrect": true
+      },
+      {
+        "option": "Restricted Boltzmann Machine",
+        "isCorrect": false
+      },
+      {
+        "option": "Deep Belief Network",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 7"
+  },
+  {
+    "question": "A Recurrent Neural Network (RNN) can be thought of as multiple copies of the same network; <br>each network passing a message to a successor. <br>Which of the following are true for a RNN? <br>I. RNNs are form of feed-forward networks spanning adjacent time steps. <br>II. A loop allows information to be passed from one step of the network to the next.",
+    "options": [
+      {
+        "option": "Only statement I.",
+        "isCorrect": false
+      },
+      {
+        "option": "Statements I and II.",
+        "isCorrect": true
+      },
+      {
+        "option": "Only statement II.",
+        "isCorrect": false
+      },
+      {
+        "option": "None of above.",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 8"
+  },
+  {
+    "question": "In _______________ each unit is linked only to units in the next layer; <br>there are no links between units in the same layer, <br>no links backward to a previous layer, <br>and no links that skip a layer.",
+    "options": [
+      {
+        "option": "Convolutional Neural Network",
+        "isCorrect": false
+      },
+      {
+        "option": "Layered feed-forward network",
+        "isCorrect": true
+      },
+      {
+        "option": "Recurrent Neural Network",
+        "isCorrect": false
+      },
+      {
+        "option": "Deep Belief Network",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 9"
+  },
+  {
+    "question": "A key difference between traditional Machine Learning (ML) and Deep Learning (DL) is in how features are extracted. Which of the following statements are true? <br>I. Traditional ML approaches use handcrafted engineering features by applying several feature extraction algorithms, and then apply the learning algorithms. <br>II. In the case of DL, features are learned automatically and represented hierarchically in multiple levels.",
+    "options": [
+      {
+        "option": "Statements I and II",
+        "isCorrect": true
+      },
+      {
+        "option": "Only statement I",
+        "isCorrect": false
+      },
+      {
+        "option": "Only statement II",
+        "isCorrect": false
+      },
+      {
+        "option": "None of above",
+        "isCorrect": false
+      }
+    ],
+    "imageUrl": "",
+    "additional": "",
+    "num": "A 12 Q 10"
+  }
+]
