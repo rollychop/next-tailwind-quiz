@@ -8,6 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html>
+      <head>
+        <title>NPTEL Exam Prep</title>
+        <meta name="theme-color" content="#ff0000"></meta>
+      </head>
       <body className="font-mono bg-gray-100 dark:bg-gray-900 dark:text-white transition-colors duration-1000 ease-in-out">
         <div className="flex flex-col h-screen justify-between">
           <div className="flex-grow">
