@@ -11,7 +11,7 @@ function Quiz() {
       <div className="h-[2px] mt-4 bg-gray-100 opacity-10"></div>
       <div className="flex flex-col justify-center items-center mt-4">
         {data.map((q) => (
-          <QuizItem {...q} />
+          <QuizItem key={q.name} {...q} />
         ))}
       </div>
       <div></div>
