@@ -27,11 +27,27 @@ function QuizComponent({ questions }: { questions: QuestionModel[] }) {
   return (
     <>
       {errorMsg && <ErrorTost msg={errorMsg} />}
+      {/* <div className="flex items-center space-x-4 overflow-x-scroll hide-scrollbar">
+        {questions.map((_, i) => (
+          <>
+            <div className="flex flex-col items-center">
+              <label htmlFor={i.toString()}>{i + 1}</label>
+              <input
+                name={i.toString()}
+                type="radio"
+                id={i.toString()}
+                value={i}
+                className="bg-gray-500 min-w-fit rounded-full text-white"
+              />
+            </div>
+          </>
+        ))}
+      </div> */}
       <QuestionItem ques={questions[curr]} />
       <div className="flex fixed bottom-12 left-0 right-0 space-x-4 justify-center">
         <button
           onClick={prev}
-          className={`inline-flex items-center justify-between px-4 py2 bg-gray-500/30 text-gray-300 rounded-md transition-all duration-300 ${
+          className={`inline-flex items-center justify-between px-4 py2 bg-gray-900/20 font-bold dark:bg-gray-500/30 dark:text-gray-300 rounded-md focus:ring-4 ring-gray-400/50 transition-all duration-300 ${
             curr <= 0
               ? "cursor-not-allowed"
               : "hover:bg-gray-600/40 hover:-translate-y-1 active:translate-y-0"
@@ -42,7 +58,7 @@ function QuizComponent({ questions }: { questions: QuestionModel[] }) {
         </button>
         <button
           onClick={next}
-          className={`inline-flex items-center justify-between px-4 py2 bg-gray-500/30 text-gray-300 rounded-md  ${
+          className={`inline-flex items-center justify-between px-4 py2 bg-gray-900/20 font-bold dark:bg-gray-500/30 dark:text-gray-300 rounded-md focus:ring-4 ring-gray-400/50  ${
             curr >= questions.length
               ? "cursor-not-allowed"
               : "hover:bg-gray-600/40 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 active:translate-y-0"

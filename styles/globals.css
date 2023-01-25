@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
   .text-secondary {
     @apply font-normal text-gray-700 dark:text-gray-400;
   }
@@ -14,5 +14,8 @@
   }
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-gray-500 dark:bg-gray-600 w-4;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    @apply hidden;
   }
 }
