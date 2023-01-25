@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className="dark">
+    <html>
       <body className="font-mono bg-gray-100 dark:bg-gray-900 dark:text-white transition-colors duration-1000 ease-in-out">
         <div className="flex flex-col h-screen justify-between">
           <div className="flex-grow">
