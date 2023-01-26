@@ -1,31 +1,19 @@
 import CourseItem from "./CourseItem";
 
-function CoursePage() {
-  const data = [
-    {
-      title: "Artificail Intelligence",
-      desc: "12 Week",
-      link: "/",
-      imageLink: "/image.jpg",
-    },
-    {
-      title: "Machine Learning",
-      desc: "4 Week",
-      link: "/",
-      imageLink: "/image.jpg",
-    },
-    {
-      title: "Mathematics",
-      desc: "12 Week",
-      link: "/",
-      imageLink: "/image.jpg",
-    },
-  ];
+async function CoursePage() {
+  const data = await fetch(
+    `${process.env.URL ? process.env.URL : "http://localhost:3000"}/api/course`
+  ).then((res) => res.json());
   return (
-    <div className="py-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center lg:px-16 xl:px-32">
-      {data.map((ob) => (
-        //@ts-ignore
-        <CourseItem {...ob} />
+    <div className="grid place-items-center gap-4 py-4 md:grid-cols-2 lg:grid-cols-3 lg:px-16 xl:px-32">
+      {data.map((c: { name: string; duration: string; link: string }) => (
+        <CourseItem
+          key={c.name}
+          title={c.name}
+          disc={c.duration}
+          link={c.link}
+          imageLink="/image.jpg"
+        />
       ))}
     </div>
   );

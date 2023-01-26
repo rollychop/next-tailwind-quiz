@@ -2,11 +2,11 @@ function QuizLoading() {
   return (
     <div
       role="status"
-      className="absolute inset-0 flex justify-center items-center -z-10"
+      className="absolute inset-0 -z-10 flex items-center justify-center"
     >
       <svg
         aria-hidden="true"
-        className="w-16 h-16 mr-2 text-gray-300 animate-spin dark:text-gray-800 fill-gray-600"
+        className="mr-2 h-16 w-16 animate-spin fill-gray-600 text-gray-300 dark:text-gray-800"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

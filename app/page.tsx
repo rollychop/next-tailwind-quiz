@@ -10,11 +10,11 @@ export default async function Home() {
     ).then((res) => res.json());
     return (
       <section className="">
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg">
-          <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center">
+        <div className="mx-auto max-w-screen-lg py-8 px-4 lg:py-16">
+          <h1 className="mb-4 text-center text-4xl font-extrabold tracking-tight">
             Currently Avialable Course
           </h1>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center">
+          <div className="grid place-content-center gap-4 md:grid-cols-2 lg:grid-cols-3">
             {courses.map(
               (c: { name: string; duration: string; link: string }) => (
                 <CourseItem

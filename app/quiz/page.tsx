@@ -7,9 +7,9 @@ function Quiz() {
   ];
   return (
     <main>
-      <h1 className="text-center mt-4 text-3xl font-bold">List of Quizes</h1>
-      <div className="h-[2px] mt-4 bg-gray-100 opacity-10"></div>
-      <div className="flex flex-col justify-center items-center mt-4">
+      <h1 className="mt-4 text-center text-3xl font-bold">List of Quizes</h1>
+      {/* <div className="mt-4 h-[2px] bg-gray-100 opacity-10"></div> */}
+      <div className="mt-4 flex flex-col items-center justify-center">
         {data.map((q) => (
           <QuizItem key={q.name} {...q} />
         ))}
@@ -19,10 +19,15 @@ function Quiz() {
   );
 }
 
-const QuizItem = ({ name, link }: { name: string; link: string }) => (
+interface QuizItemProp {
+  name: string;
+  link: string;
+}
+
+const QuizItem = ({ name, link }: QuizItemProp) => (
   <div className="my-4">
     <Link
-      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-500"
+      className="inline-flex items-center rounded-lg bg-gray-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-500"
       href={link}
     >
       {name}

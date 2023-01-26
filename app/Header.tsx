@@ -28,18 +28,18 @@ function Header() {
   };
 
   return (
-    <header className="h-12 w-full flex flex-col justify-center bg-gray-200 dark:bg-gray-800">
+    <header className="flex h-12 w-full flex-col justify-center bg-gray-200 dark:bg-gray-800">
       <nav className="flex justify-evenly px-16">
         <div>
           <Link href="/" className="flex">
-            <div className="font-bold text-lg">NPTEL Exam Prep</div>
+            <div className="text-lg font-bold">NPTEL Exam Prep</div>
           </Link>
         </div>
         <div className="flex">
-          <button className="mr-4 relative" onClick={toggleTheme}>
+          <button className="relative mr-4" onClick={toggleTheme}>
             {darkMode ? <MdLightMode size={25} /> : <MdDarkMode size={25} />}
           </button>
-          <div className="font-bold text-lg">
+          <div className="text-lg font-bold">
             <Link href="/quiz">
               <span className="md:hidden">
                 <MdQuiz size={25} />

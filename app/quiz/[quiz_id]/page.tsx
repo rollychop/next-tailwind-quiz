@@ -15,7 +15,7 @@ async function QuizPage({ params }: { params: { quiz_id: string } }) {
     ).then((e) => e.json());
 
     return (
-      <div className="flex flex-col gap-4 my-4">
+      <div className="my-4 flex flex-col gap-4">
         <h1 className="text-center text-2xl">
           Start Learning Question from {params.quiz_id} Assingnment
         </h1>
