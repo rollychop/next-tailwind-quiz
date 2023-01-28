@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 export default async function Home() {
   try {
+    console.log(process.env.URL);
     const courses = await fetch(
       `${
         process.env.URL ? process.env.URL : "http://localhost:3000"

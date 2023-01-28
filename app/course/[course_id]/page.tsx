@@ -1,10 +1,9 @@
 type AppParams = { params: { course_id: string } };
 
-function CourseItem({ params }: AppParams) {
-  console.log(params);
+function CourseItem() {
   return (
     <div>
-      Course Item page <span className="text-2xl">{params.course_id}</span>
+      Course Item page <span className="text-2xl"></span>
     </div>
   );
 }

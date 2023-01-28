@@ -4,12 +4,13 @@ import QuizComponent from "./QuizComponent";
 async function QuizPage({ params }: { params: { quiz_id: string } }) {
   try {
     const questions: QuestionModel[] = await fetch(
-      `${
-        process.env.URL ? process.env.URL : "http://localhost:3000"
-      }/api/question?year=${params.quiz_id}`,
+      `${process.env.URL}/api/question?year=${params.quiz_id}`,
       {
         headers: {
           "content-type": "application/json",
+        },
+        next: {
+          revalidate: 30,
         },
       }
     ).then((e) => e.json());

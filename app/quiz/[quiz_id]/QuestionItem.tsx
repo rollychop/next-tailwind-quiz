@@ -1,11 +1,5 @@
 "use client";
-import {
-  FaCheckCircle,
-  FaCircle,
-  FaCheckDouble,
-  Fa500Px,
-  FaBan,
-} from "react-icons/fa";
+import { FaCheckCircle, FaCircle, FaCheckDouble, FaBan } from "react-icons/fa";
 import { QuestionModel, Option } from "../../../typying";
 
 interface IProps {
@@ -14,6 +8,7 @@ interface IProps {
   showAnswer?: boolean;
   selectedOptions?: Set<Option>;
   onOptionClick?: (op: Option) => void;
+  children?: React.ReactNode;
 }
 
 const QuestionItem = ({
@@ -22,6 +17,7 @@ const QuestionItem = ({
   selectedOptions,
   showAnswer,
   onOptionClick,
+  children,
 }: IProps) => {
   return (
     <div className="divide-y-2 divide-dotted divide-gray-500/50 rounded-md bg-gray-300 dark:bg-gray-800">
@@ -36,7 +32,7 @@ const QuestionItem = ({
           <img
             src={ques.imageUrl}
             className="aspect-auto w-full"
-            alt="extra information"
+            alt="Image Question"
           />
         )}
         {ques.additional &&
@@ -66,6 +62,7 @@ const QuestionItem = ({
           />
         ))}
       </div>
+      {children}
     </div>
   );
 };

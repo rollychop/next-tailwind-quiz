@@ -1,9 +1,9 @@
-type Option ={
+export interface Option {
     option: string;
     isCorrect: boolean;
 }
 
-export type QuestionModel ={
+export interface QuestionModel {
     question: string;
     options: Option[];
     imageUrl: string;
