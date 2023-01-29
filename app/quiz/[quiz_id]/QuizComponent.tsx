@@ -69,15 +69,16 @@ function QuizComponent({ questions }: { questions: QuestionModel[] }) {
   const evaluate = () => {
     const scores: Score[] | undefined = attempted?.map((ops, index) => {
       if (ops.size === 0) return { score: 0, msg: "Not Attempted" };
-      if (ops.size === 1)
+      const noOfCorrectOption = questions[index].options.filter(
+        (op) => op.isCorrect
+      ).length;
+      if (ops.size === 1 && noOfCorrectOption === 1)
         return Array.from(ops)[0].isCorrect
           ? { score: 2, msg: "You're Correct!" }
           : { score: 0, msg: "Wrong Answer" };
       if (Array.from(ops).filter((op) => !op.isCorrect).length >= 1)
         return { score: 0, msg: "Wrong Answer" };
-      const noOfCorrectOption = questions[index].options.filter(
-        (op) => op.isCorrect
-      ).length;
+
       const noOfSelectedCorrectOption = Array.from(ops).filter(
         (e) => e.isCorrect
       ).length;

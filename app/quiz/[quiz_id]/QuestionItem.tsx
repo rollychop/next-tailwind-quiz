@@ -1,5 +1,12 @@
 "use client";
-import { FaCheckCircle, FaCircle, FaCheckDouble, FaBan } from "react-icons/fa";
+import {
+  FaCheckCircle,
+  FaCircle,
+  FaCheckDouble,
+  FaBan,
+  FaCheckSquare,
+  FaSquare,
+} from "react-icons/fa";
 import { QuestionModel, Option } from "../../../typying";
 
 interface IProps {
@@ -19,6 +26,8 @@ const QuestionItem = ({
   onOptionClick,
   children,
 }: IProps) => {
+  const isMultiSelect = ques.options.filter((op) => op.isCorrect).length > 1;
+
   return (
     <div className="divide-y-2 divide-dotted divide-gray-500/50 rounded-md bg-gray-300 dark:bg-gray-800">
       <div className="relative">
@@ -35,6 +44,7 @@ const QuestionItem = ({
             alt="Image Question"
           />
         )}
+
         {ques.additional &&
           ques.additional.length > 0 &&
           ques.additional.split("<br>").map((ad) => (
@@ -43,24 +53,44 @@ const QuestionItem = ({
             </p>
           ))}
         <div className="px-4 py-2">
-          {ques.question.split("<br>").map((qu) => (
-            <p className={`font-bold`} key={qu.trim()}>
-              {qu}
+          {ques.question.split("<br>").map((questionText) => (
+            <p className={`font-bold`} key={questionText.trim()}>
+              {questionText}
             </p>
           ))}
         </div>
       </div>
-      <div className="py-2">
-        {ques.options.map((op, index) => (
-          <OptionItem
-            key={index}
-            option={op}
-            index={index}
-            showAnswer={showAnswer}
-            onOptionClick={onOptionClick}
-            seletectedOption={selectedOptions}
-          />
-        ))}
+      {isMultiSelect ? (
+        <div className="px-4 text-center text-sm text-gray-500">
+          Multi-select Question
+        </div>
+      ) : (
+        <div className="px-4 text-center text-sm text-gray-500">
+          Multiple Choice Question
+        </div>
+      )}
+      <div className="pb-2">
+        {ques.options.map((op, index) =>
+          isMultiSelect ? (
+            <MultiSelectOptionItem
+              key={index}
+              option={op}
+              index={index}
+              showAnswer={showAnswer}
+              onOptionClick={onOptionClick}
+              seletectedOption={selectedOptions}
+            />
+          ) : (
+            <OptionItem
+              key={index}
+              option={op}
+              index={index}
+              showAnswer={showAnswer}
+              onOptionClick={onOptionClick}
+              seletectedOption={selectedOptions}
+            />
+          )
+        )}
       </div>
       {children}
     </div>
@@ -110,4 +140,38 @@ const OptionItem = ({
   );
 };
 
+const MultiSelectOptionItem = ({
+  option,
+  index,
+  onOptionClick,
+  showAnswer,
+  seletectedOption,
+}: IPropOption) => {
+  return (
+    <div
+      className={`mt-4 grid cursor-pointer grid-cols-12 items-center gap-2 px-4 hover:opacity-90`}
+      onClick={() => onOptionClick?.(option)}
+    >
+      <span>{String.fromCharCode(65 + index)}</span>
+      {showAnswer ? (
+        option.isCorrect ? (
+          seletectedOption?.has(option) ? (
+            <FaCheckSquare className="text-green-700 dark:text-green-500" />
+          ) : (
+            <FaCheckDouble className="text-green-700 dark:text-green-500" />
+          )
+        ) : seletectedOption?.has(option) ? (
+          <FaBan className="text-red-700 dark:text-red-500" />
+        ) : (
+          <FaSquare className="text-gray-500" />
+        )
+      ) : seletectedOption?.has(option) ? (
+        <FaCheckSquare className="text-gray-900 dark:text-gray-300" />
+      ) : (
+        <FaSquare className="text-gray-500" />
+      )}
+      <p className="col-span-10">{option.option}</p>
+    </div>
+  );
+};
 export default QuestionItem;
