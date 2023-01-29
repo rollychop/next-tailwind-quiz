@@ -1,3 +1,7 @@
 export default function Head({ params }: { params: { slug: string } }) {
-  return <></>;
+  return (
+    <>
+      <title>Quiz</title>
+    </>
+  );
 }

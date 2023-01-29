@@ -10,7 +10,7 @@ export default function RootLayout({
     <html>
       <head>
         <title>NPTEL Exam Prep</title>
-        <meta name="theme-color" content="#ff0000"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="bg-gray-100 font-mono transition-colors duration-1000 ease-in-out dark:bg-gray-900 dark:text-white">
         <div className="flex h-screen flex-1 flex-col justify-between">
